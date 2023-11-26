@@ -1,0 +1,149 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   outline: none;
+   font-family: 'Tw Cen MT', sans-serif;
+}
+
+body {
+   background-image: url(Images/image.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 5px 0;
+}
+
+nav.logo{
+   width: 100px;
+   cursor: pointer;
+}
+
+nav ul{
+   display: flex;
+   justify-content: flex-end;
+   flex: 1;
+   padding-right: 40px;
+   text-align: 40px;
+   list-style-type: none;
+}
+
+ul li{
+   margin-right: 10px;
+}
+
+ul li a{
+   position: relative;
+   padding: 10px  20px;
+   text-decoration: none;
+   color: #fff;
+   font-size: 16px;
+}
+
+ul li a::after {
+   content: '';
+   background: #111111;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   width: 38%;
+   height: 3px;
+   transform: translate(-50px, -5px);
+}
+
+.message {
+   position: absolute;
+   bottom: 10%;
+   color: #fff;
+}
+
+.message p {
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.message h1 {
+   font-size: 120px;
+   line-height: 120px;
+   margin-left: -10px;
+}
+
+.message h4 {
+   font-size: 40px;
+   font-weight: 500;
+   color: #050505;
+}
+
+.class1 {
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 10px;
+   padding: 10px 8%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   background-color: transparent;
+
+}
+
+.class2 {
+   margin-top: 6%;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 10px;
+   padding: 10px 8%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   background-color: transparent;
+
+}
+
+.class3 {
+   margin-top: 6%;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 10px;
+   padding: 10px 8%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   background-color: transparent;
+
+}
+
+.class {
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 10px;
+   padding: 10px 8%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   background-color: transparent;
+}
+
+hr {
+   margin: 40px;
+}
+
+.class4 {
+   color: #fff;
+   text-align: center;
+}
+
+.class5 li {
+   margin: 10px;
+   color: #fff;
+}
+
+.class6 {
+   margin-top: 6%;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 10px;
+   padding: 10px 8%;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   background-color: transparent;
+}
+
+
